@@ -58,8 +58,4 @@ public class Util {
         }
         return sessionFactory;
     }
-
-    public static Session getSession() {
-        return getSessionFactory().getCurrentSession();
-    }
 }
